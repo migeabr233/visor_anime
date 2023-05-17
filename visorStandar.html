@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ViSOrStandar</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<iframe id="video-iframe" src="https://www.yourupload.com/embed/KLc436Bf1q1P"></iframe>
+	<button class="fullscreen-button" onclick="toggleFullscreen()">Pantalla completa</button>
+  <!-- <iframe src="https://www.yourupload.com/embed/O1B4U1r60BiQ"> -->
+<!-- seccion donaciones -->
+  <div class="donation-section">
+    <h1>¡Apoya nuestra página de anime!</h1>
+
+    <div class="donation-title">
+      <h2>Donaciones</h2>
+    </div>
+
+    <div class="donation-subtitle">
+      <p>Puedes realizar una donación a través de PayPal:</p>
+    </div>
+
+    <form class="paypal-form" action="https://www.paypal.com/#" method="post" target="_blank">
+      <input type="hidden" name="cmd" value="_donations">
+      <input type="hidden" name="business" value="tu_correo_paypal@example.com">
+      <input type="hidden" name="currency_code" value="USD">
+      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+      <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+    </form>
+
+    <div class="donation-subtitle">
+      <p>También puedes convertirte en nuestro Patreon:</p>
+    </div>
+
+    <a href="https://www.patreon.com/#" target="_blank">
+      <img src="https://ps.w.org/patreon-connect/assets/icon-256x256.png?rev=1782351" width="70" height="50" alt="Patreon">
+    </a>
+  </div>
+  <!-- comentarios de facebook -->
+  <div id="fb-root"></div>
+  <!-- script primero -->
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v16.0" nonce="poYVoEPY"></script>
+
+<!-- a;adido -->
+<br>
+<div class="fb-comments" data-href="http://localhost:3000/visorStandar.html" data-width="1000" data-numposts="7"></div>
+	<script src="script.js">
+	</script>
+</body>
+</html>

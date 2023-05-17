@@ -1,0 +1,46 @@
+
+		body {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+			margin: 0;
+			padding: 0;
+			background-color: blueviolet;
+			font-family: Arial, sans-serif;
+		}
+
+		iframe {
+			width: 640px; /* Tamaño inicial del iframe */
+			height: 360px;
+			border: none;
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+			border-radius: 5px;
+		}
+
+		.fullscreen-button {
+			margin-top: 10px;
+		}
+
+    .donation-section {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .donation-title {
+      font-size: 24px;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+    .donation-subtitle {
+      font-size: 16px;
+      margin-bottom: 5px;
+      text-align: center;
+    }
+
+    .paypal-form {
+      margin-bottom: 20px;
+    }
